@@ -1,0 +1,59 @@
+.style-red{color:aqua}
+#title{
+    margin: 10px;
+    font-size: 20px;
+}
+.title{color:blue}
+html,body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: PingFang SC,RobotoDraft,Roboto,Helvetica Neue,Helvetica,Arial,STHeiti,华文黑体,Microsoft YaHei,微软雅黑,sans-serif;
+    color: #333333;
+    background: rgba(249, 249, 249, 0.66);
+    overflow-x:hidden;
+    overflow-y:hidden;
+}
+    /* ID选择器 */
+#title-1{text-decoration:line-through;}
+    /* class选择器 */
+/* body{background-color:#cccccc} */
+.keywod{color:blue}
+.frame{
+    display:flex;
+}
+.left{
+    /* background-color: red; */
+    flex:none;/*固定 */
+    width:50px;
+}
+.right{
+    /* background-color: blue; */
+    flex:none;/*固定 */
+    flex: auto;
+    display:flex;
+    justify-content: flex-end;
+}
+.item{
+    background-color: #cccccc;
+    flex:none;
+    width: 100px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.welcome{
+    display: flex;
+    justify-content: center;/*水平之中*/
+    align-items: center;/*垂直*/
+    height: 300px;
+    background-color: #cccccc;
+}
+.text{
+    display:flex;
+    justify-content: center;
+    width: 300px;height: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
